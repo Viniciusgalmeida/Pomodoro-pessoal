@@ -92,10 +92,10 @@ const Pomodoro = () => {
       </div>
       <div className="container-screen">
         <div className="screen">
-          <textarea
+          {/*<textarea
             className="screen-text"
             placeholder="What pushes you?"
-          ></textarea>
+          ></textarea> */}
         </div>
       </div>
       <div className="timer">{formatTime()}</div>
